@@ -1,0 +1,5 @@
+build_and_run:
+  - git clone https://github.com/lgong30/cppLearn.git
+  - cd cppLearn/move_semantics
+  - g++ -std=c++11 -fno-elide-constructors example.cpp -o example
+  - ./example
